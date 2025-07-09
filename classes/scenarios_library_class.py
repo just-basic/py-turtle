@@ -24,7 +24,7 @@ class ScenariosLib:
             lambda: spiral_simple_art(turtle=turtle_setup, times=135, rotation_angle=random.randint(1, 360), speed=self.speed,
                                       pallet=self.pallet),
             # Simple shapes
-            lambda: simple_shape_art(turtle=turtle_setup, edges=random.randint(1, 36), speed=self.speed,
+            lambda: simple_shape_art(turtle=turtle_setup, edges=random.randint(3, 36), speed=self.speed,
                                       pallet=self.pallet),
         ]
         self.size = len(self.calls)
