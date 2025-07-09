@@ -1,3 +1,4 @@
+""":class:`ColorPalette`"""
 from enum import Enum
 
 
